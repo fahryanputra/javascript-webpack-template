@@ -18,5 +18,15 @@
         "usePackageJson": true
       }
     ]
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["Templates", "./src/templates/"],
+          ["Styles", "./src/styles/"]
+        ]
+      }
+    }
   }
 }
